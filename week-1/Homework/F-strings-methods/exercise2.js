@@ -1,3 +1,3 @@
-const name = " Daniel  ";
+const message = " Alissa  ";
 
-console.log(message);
+console.log("My name is " + message.trim() + " and my name is 6 characters long.");
