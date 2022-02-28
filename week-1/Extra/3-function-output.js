@@ -1,9 +1,12 @@
 // Add comments to explain what this function does. You're meant to use Google!
+/* This function gets a random number lower than 1 with the function .random(), and multiply it by 10 */
 function getNumber() {
   return Math.random() * 10;
 }
 
 // Add comments to explain what this function does. You're meant to use Google!
+/*In the first function The concat() method concatenates (joins) two or more arrays.
+ */
 function s(w1, w2) {
   return w1.concat(w2);
 }
@@ -11,6 +14,7 @@ function s(w1, w2) {
 function concatenate(firstWord, secondWord, thirdWord) {
   // Write the body of this function to concatenate three words together.
   // Look at the test case below to understand what this function is expected to return.
+  return firstWord.concat(" ", secondWord, " ", thirdWord);
 }
 
 /* ======= TESTS - DO NOT MODIFY =====
