@@ -43,9 +43,12 @@ Outlook not so good.
 Very doubtful.
 */
 
-// This should log "The ball has shaken!"
+// This should log(console.log) "The ball has shaken!"
 // and return the answer.
-function shakeBall() {
+function shakeBall(question) {
+  console.log = "The ball has shaken!";
+  return ""
+
 }
 
 // This function should say whether the answer it is given is

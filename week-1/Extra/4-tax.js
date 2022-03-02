@@ -6,8 +6,7 @@
 */
 
 function calculateSalesTax(price) {
-  const saletax = calc(price)
-  return .toFixed(price + (price * 20);
+  return (price * 1.20);
 }
 
 
@@ -21,7 +20,10 @@ function calculateSalesTax(price) {
   Remember that the prices must include the sales tax (hint: you already wrote a function for this!)
 */
 
-function addTaxAndFormatCurrency() {}
+function addTaxAndFormatCurrency(price) {
+  const taxPrice = calculateSalesTax(price);
+  return "£" + taxPrice.toFixed(2)
+}
 
 /* ======= TESTS - DO NOT MODIFY =====
 There are some Tests in this file that will help you work out if your code is working.
@@ -48,3 +50,5 @@ test("calculateSalesTax function - case 3 works", calculateSalesTax(34), 40.8)
 test("addTaxAndFormatCurrency function - case 1 works", addTaxAndFormatCurrency(15), "£18.00")
 test("addTaxAndFormatCurrency function - case 2 works", addTaxAndFormatCurrency(17.5), "£21.00")
 test("addTaxAndFormatCurrency function - case 3 works", addTaxAndFormatCurrency(34), "£40.80")
+
+

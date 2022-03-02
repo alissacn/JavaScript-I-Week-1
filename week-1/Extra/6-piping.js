@@ -33,13 +33,13 @@ function format(money) {
 const startingValue = 2
 
 // Why can this code be seen as bad practice? Comment your answer.
-let badCode = multiply(add(startingValue, 10), 2);
+let badCode =  "£" + multiply(add(startingValue, 10), 2);
 
 /* BETTER PRACTICE */
 
-let goodCode = add(startingValue, 10) 
-goodCode = multiply(goodCode, 2)
-goodCode = format(goodCode)
+let goodCode = add(startingValue, 10); 
+goodCode = multiply(goodCode, 2);
+goodCode = format(goodCode);
 
 /* ======= TESTS - DO NOT MODIFY ===== 
 There are some Tests in this file that will help you work out if your code is working.
