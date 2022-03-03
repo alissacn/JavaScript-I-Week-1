@@ -10,4 +10,6 @@ function moodMessage(mood) {
       }
 }
 
-console.log(moodMessage("ola"))   
+console.log(moodMessage("happy"))   
+ 
+

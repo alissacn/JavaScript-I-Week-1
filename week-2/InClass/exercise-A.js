@@ -1,7 +1,7 @@
-const sum = 1 + 2;
+const sum = 1 + 2; //3
 
-const greeting = "hello";
+const greeting = "hello"; //'hello'
 
-let favouriteColour = "purple";
-favouriteColour;
-console.log(favouriteColour);
+let favouriteColour = "purple"; //undefined
+favouriteColour; //purple
+console.log(favouriteColour); //undefined
