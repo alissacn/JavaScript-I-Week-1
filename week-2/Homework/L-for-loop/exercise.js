@@ -5,11 +5,13 @@
 - You should use a for loop
 
 */
-
-let n = 10;
-
 function sumTillNum(num){
-	//your code here
+	let sum = 0
+	for (let i = 1; i <= num; i++){
+		sum = sum + " + " + i;
+	}
+	return sum;	
 }
 
+let n = 10;
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));

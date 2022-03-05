@@ -1,10 +1,9 @@
 console.log ("Hello World")
-console.log ("Olá mundo")
-console.log ("Hola mundo")
-console.log ("Բարեւ աշխարհ")
-console.log ("Kon'nichiwa sekai")
-console.log ("Witaj świecie")
-console.log ("Hej världen")
-console.log ("Hallo Wereld")
-console.log ("Dia duit Domhanda")
-console.log ("Hola món")
+
+
+
+
+
+
+
+
