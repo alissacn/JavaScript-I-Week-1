@@ -13,3 +13,13 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
+
+function DaysOfWeekWithT(days) {
+  for (let i = 0; i < days.length; i++) {
+    if (days[i][0] === "T"); {
+      console.log(days[i]);
+    }
+  }
+} 
+
+console.log(DaysOfWeekWithT(daysOfWeek));
